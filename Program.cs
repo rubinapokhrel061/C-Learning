@@ -218,3 +218,34 @@
 //int[] arr3 = new int[4] {1,3,4,5}; //array size and value both define
 //int[] arr4 = new int[] {1,3,4,5}; //array size no define and values are define
 
+
+//class and object 
+// class(animal) -> lion,tiger,dog(properties,function) -object
+
+//class Student
+//{
+//    int id = 1;
+//    string name = "rubina";
+//    static void Main(string[] args)
+//    {
+//        Student st = new Student();
+//        Console.WriteLine(st.id);
+//        Console.WriteLine(st.name);
+//    } 
+//}
+
+//class members 
+
+class Student
+{
+    int id;//field
+    string name; //field
+    void myFunction() //method
+    { Console.WriteLine("This is a function..."); }
+    static void Main(string[] args)
+    {
+        Student student = new Student();
+        Console.WriteLine(student.id);
+        student.myFunction();
+    }
+}
