@@ -235,17 +235,40 @@
 //}
 
 //class members 
+//class Student
+//{
+//    int id;//field
+//    string name; //field
+//    void myFunction() //method
+//    { Console.WriteLine("This is a function..."); }
+//    static void Main(string[] args)
+//    {
+//        Student student = new Student();
+//        Console.WriteLine(student.id);
+//        student.myFunction();
+//    }
+//}
 
-class Student
-{
-    int id;//field
-    string name; //field
-    void myFunction() //method
-    { Console.WriteLine("This is a function..."); }
-    static void Main(string[] args)
-    {
-        Student student = new Student();
-        Console.WriteLine(student.id);
-        student.myFunction();
-    }
-}
+
+//constructor
+//A constructor in C# initializes an object, has the same name as the class, has no return type, and is called automatically when an object is created.
+//class Student
+//{
+//    // Custom constructor
+//    public Student(string name)
+//    {
+//        // Initialize the student with a name
+//        Console.WriteLine("Student created with name: " + name);
+//    }
+
+//    void Myfunction()
+//    {
+//        Console.WriteLine("This is my function");
+//    }
+
+//    static void Main(string[] args)
+//    {
+//        // Using the custom constructor to create the student
+//        Student student = new Student("John");
+//    }
+//}
